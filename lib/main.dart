@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutteregitim/secon_page.dart';
+import 'package:flutteregitim/data_flow.dart';
+import 'package:flutteregitim/second_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: SecondPage(),
+      home: DataFlow(),
     );
   }
 }
